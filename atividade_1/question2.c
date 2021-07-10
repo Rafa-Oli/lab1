@@ -8,12 +8,12 @@ de asteriscos adjacentes. Por exemplo, se seu programa ler o número sete, ele d
 #include <stdlib.h>
 #include <stdio.h>
 
-
-int main()
-{
 const int NUM_MAX = 30;
 const int NUM_MIN = 1;
 const int TAM = 5;
+
+int main()
+{
     int vetor[TAM];
     int num;
 
